@@ -67,25 +67,25 @@ function clicar(elemento){
 
             if (elemento.classList.contains("c0")){
                 c1=0
-                carta1.firstChild.src="projeto4-parrotscardgame/midia/bobrossparrot.gif"
+                carta1.firstChild.src="./midia/bobrossparrot.gif"
             } else if (elemento.classList.contains("c1")){
                 c1=1
-                carta1.firstChild.src="projeto4-parrotscardgame/midia/explodyparrot.gif"
+                carta1.firstChild.src="./midia/explodyparrot.gif"
             } else if (elemento.classList.contains("c2")){
                 c1=2
-                carta1.firstChild.src="projeto4-parrotscardgame/midia/fiestaparrot.gif"
+                carta1.firstChild.src="./midia/fiestaparrot.gif"
             } else if (elemento.classList.contains("c3")){
                 c1=3
-                carta1.firstChild.src="projeto4-parrotscardgame/midia/metalparrot.gif"
+                carta1.firstChild.src="./midia/metalparrot.gif"
             } else if (elemento.classList.contains("c4")){
                 c1=4
-                carta1.firstChild.src="projeto4-parrotscardgame/midia/revertitparrot.gif"
+                carta1.firstChild.src="./midia/revertitparrot.gif"
             } else if (elemento.classList.contains("c5")){
                 c1=5
-                carta1.firstChild.src="projeto4-parrotscardgame/midia/tripletsparrot.gif"
+                carta1.firstChild.src="./midia/tripletsparrot.gif"
             } else {
                 c1=6
-                carta1.firstChild.src="projeto4-parrotscardgame/midia/unicornparrot.gif"
+                carta1.firstChild.src="./midia/unicornparrot.gif"
             }
 
             carta1.classList.add("selecionar")
@@ -99,25 +99,25 @@ function clicar(elemento){
 
             if (elemento.classList.contains("c0")){
                 c2=0
-                carta2.firstChild.src="projeto4-parrotscardgame/midia/bobrossparrot.gif"
+                carta2.firstChild.src="./midia/bobrossparrot.gif"
             } else if (elemento.classList.contains("c1")){
                 c2=1
-                carta2.firstChild.src="projeto4-parrotscardgame/midia/explodyparrot.gif"
+                carta2.firstChild.src="./midia/explodyparrot.gif"
             } else if (elemento.classList.contains("c2")){
                 c2=2
-                carta2.firstChild.src="projeto4-parrotscardgame/midia/fiestaparrot.gif"
+                carta2.firstChild.src="./midia/fiestaparrot.gif"
             } else if (elemento.classList.contains("c3")){
                 c2=3
-                carta2.firstChild.src="projeto4-parrotscardgame/midia/metalparrot.gif"
+                carta2.firstChild.src="./midia/metalparrot.gif"
             } else if (elemento.classList.contains("c4")){
                 c2=4
-                carta2.firstChild.src="projeto4-parrotscardgame/midia/revertitparrot.gif"
+                carta2.firstChild.src="./midia/revertitparrot.gif"
             } else if (elemento.classList.contains("c5")){
                 c2=5
-                carta2.firstChild.src="projeto4-parrotscardgame/midia/tripletsparrot.gif"
+                carta2.firstChild.src="./midia/tripletsparrot.gif"
             } else {
                 c2=6
-                carta2.firstChild.src="projeto4-parrotscardgame/midia/unicornparrot.gif"
+                carta2.firstChild.src="./midia/unicornparrot.gif"
             }
             
             //Se tiver acertado
@@ -198,8 +198,8 @@ function desvirar_cartas(){
     contador--;
         if (contador === 0) {
           clearInterval(idInterval)
-          carta1.firstChild.src="projeto4-parrotscardgame/midia/front.png"
-          carta2.firstChild.src="projeto4-parrotscardgame/midia/front.png"
+          carta1.firstChild.src="./midia/front.png"
+          carta2.firstChild.src="./midia/front.png"
           idInterval = undefined
         }
 }
